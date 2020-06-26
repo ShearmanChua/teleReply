@@ -50,8 +50,8 @@ if __name__ == '__main__':
                 print(time.asctime(), '-', event.message)  # optionally log time and message
                 time.sleep(1)  # pause for 1 second to rate-limit automatic replies
                 print(event.message.message)
-                #print(chatbot.get_response(event.message.message))
-                #await event.respond(chatbot.get_response(event.message.message).text)
+                print(chatbot.get_response(event.message.message))
+                await event.respond(chatbot.get_response(event.message.message).text)
         else:
             chat_from = event.chat if event.chat else (await event.get_chat())  # telegram MAY not send the chat enity
             chat_title = chat_from.title
