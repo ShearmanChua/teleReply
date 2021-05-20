@@ -6,12 +6,12 @@ from chatterbot.trainers import ChatterBotCorpusTrainer
 
 # sample API_ID from https://github.com/telegramdesktop/tdesktop/blob/f98fdeab3fb2ba6f55daf8481595f879729d1b84/Telegram/SourceFiles/config.h#L220
 # or use your own
-api_id = 1286288
+api_id = 1234567
 api_hash = '78a6b613459cb02df7a6ab23f5233bfd'
 
 # fill in your own details here
-phone = '+6588767376'
-session_file = '@Shearman'  # use your username if unsure
+phone = '+6585797336'
+session_file = '@Username'  # use your username if unsure
 password = 'YOUR_PASSWORD'  # if you have two-step verification enabled
 
 # content of the automatic reply
